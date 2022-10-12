@@ -41,9 +41,12 @@ dev_dependencies:
   flutter_launcher_icons: ^0.10.0
   
 flutter_icons:
-  android: true
+  android: "launcher_icon"
+  min_sdk_android: 21
   ios: true
-  image_path: "assets/ig.png"
+  image_path: "assets/expenseIcon.png"
+  #adaptive_icon_background: "assets/expenseIcon_adaptive_back.png"
+  #adaptive_icon_foreground: "assets/expenseIcon_adaptive_fore.png"
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
